@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\ M\u00E9todo\ principal.\ Ejecuta\ el\ programa\ en\ funci\u00F3n\ de\ los\ argumentos\ pasados.\r\n\ Si\ existe\ al\ menos\ un\ argumento\ que\ sea\ "-h"\ o\ si\ se\ introducen\ m\u00E1s\ argumentos\ de\ los\ esperados,\ muestra\ la\ ayuda\ y\ termina\ el\ programa.\r\n\ Si\ no\ hay\ "-h"\ busca\ "-t"\ para\ activar\ o\ no\ la\ traza.\ \r\n\ Dependiendo\ de\ si\ se\ ha\ activado\ la\ traza\ y\ del\ n\u00FAmero\ de\ elementos\ de\ args[]\ el\ m\u00E9todo\ espera\ nombres\ de\ fichero\ en\ las\ posiciones\ 0,\ 1\ \u00F3\ 2.\r\n\ Llamadas\ a\ m\u00E9todos\:\r\n\tInput()\ \t\t\t\t\t\tEntrada\ y\ salida\ por\ terminal.\r\n\tInputFile(args[m])\ \t\t\t\tEntrada\ desde\ archivo,\ salida\ por\ terminal.\r\n\tInOutFile(arcs[m],\ args[n])\ \ \tEntrada\ y\ salida\ a\ fichero.\ \r\n
+comment1.params=x
+comment1.target=boolean\ Comprobar(java.lang.String)
+comment10.params=FileIn\ FileOut
+comment10.target=void\ InOutFile(java.lang.String,\ java.lang.String)
+comment2.params=x
+comment2.target=java.lang.String\ Signo(java.lang.String)
+comment3.params=x\ y
+comment3.target=java.lang.String\ Igualar(java.lang.String,\ java.lang.String)
+comment4.params=x\ y
+comment4.target=java.lang.String\ Suma(java.lang.String,\ java.lang.String)
+comment5.params=x\ y
+comment5.target=java.lang.String\ Resta(java.lang.String,\ java.lang.String)
+comment6.params=x
+comment6.target=boolean\ NumeroCero(java.lang.String)
+comment7.params=x\ y
+comment7.target=java.lang.String\ karatsuba(java.lang.String,\ java.lang.String)
+comment7.text=\ M\u00E9todo\ karatsuba.\ N\u00FAcleo\ del\ algoritmo.\ Multiplica\ 2\ n\u00FAmeros\ guardados\ como\ cadena\ de\ caracteres\ ("x"\ *\ "y").\t\r\n\ \r\n\r\n\r\n
+comment8.params=
+comment8.target=void\ Input()
+comment9.params=file
+comment9.target=void\ InputFile(java.lang.String)
+numComments=11

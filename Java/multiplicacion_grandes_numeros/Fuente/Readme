@@ -1,0 +1,26 @@
+ ********************************
+ |	 Multiplica v1.0	|
+ |		  		|
+ | Creado por			|
+ |	Iker Domingo	 2016	|
+ ********************************
+
+ Sintáxis: java -jar multiplica.jar [-opciones] [argumentos...]
+
+ [-opciones]
+   [-h]		Imprimir este mensaje de ayuda
+   [-t]		Activar la traza
+   
+ [argumentos...]
+
+   [fichero_entrada]
+	Datos de entrada leídos desde [fichero_entrada]. 
+	Salida por terminal.
+		
+   [fichero_entrada] [fichero_salida]
+	Datos de entrada leídos desde [fichero_entrada]. 
+	Resultado guardado en [fichero_salida].
+   
+  * Las opciones y los argumentos son de uso voluntario.
+  
+  * "java -jar multiplica.jar" ejecuta la aplicación a través del terminal.

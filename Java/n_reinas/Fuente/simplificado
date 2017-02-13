@@ -1,0 +1,28 @@
+*********************************************
+*   La ejecución normal de este programa    *
+*   genera TODAS las posibles soluciones.   *
+*                                           *
+*   Para tableros superiores a 15x15        *
+*   puede demorarse en exceso ya que se     *
+*   obtienen millones de soluciones.        *
+*                                           *
+*    N   #Soluciones     Tiempo estimado    *
+*    1   1               ~ 0                *  
+*    4   2               ~ 0                *
+*    8   92              ~ 13 ms            *  
+*    12  14200           ~ 0'4 s            *  
+*    14  365596          ~ 6 s              *
+*    16  14772512        < 5 min            *   
+*    17  95815104        < 40 min           *
+*    18  666090624       ~ 5 hr             *
+*    24  227514171973736   ?                *
+*                                           *
+*   Si lo desea puede ejecutar el programa  *
+*   en modo simplificado. De esta forma se  *
+*   obtendrá una única solución.            *
+*                                           *
+*   0 - Salir                               *
+*   1 - Ejecución normal                    *
+*   2 - Ejecución simplificada              *
+*                                           *
+*********************************************

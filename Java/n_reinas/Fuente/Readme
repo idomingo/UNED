@@ -1,0 +1,34 @@
+ ********************************
+ |   Reinas v1.0                |
+ |                              |
+ | Creado por                   |
+ |  Iker Domingo     2016       |
+ ********************************
+
+ Sintáxis: java -jar reinas.jar [-argumentos] [tamaño_tablero] [archivo_salida] 
+
+ 
+ [-argumentos]         //Opcional
+ 
+   [-h]	    Imprimir este mensaje de ayuda
+   [-t]	    Activar la traza
+   [-g]	    Activar modo gráfico
+   
+   
+ [archivo_salida]      //Opcional
+ 
+    -Permite obtener el resultado del programa en el archivo de salida indicado. 
+    -El programa no admite nombres de archivos formados únicamente por números.	 
+                   
+                    Ejemplo válido: java -jar reinas.jar salida.txt 8
+                    Ejemplo no válido: java -jar reinas.jar 8 8
+                      
+					  
+ [tamaño_tablero]      //Obligatorio
+ 
+    -[Tablero CUADRADO] introducir el lado:  
+        Ejemplo:   java -jar reinas.jar 8
+        ** Sólo válido para números enteros naturales distintos de 0, 2 y 3. **      
+
+    -[Tablero RECTANGULAR] introducir -r seguido de los dos lados: 
+        Ejemplo:   java -jar reinas.jar -r 7 9
